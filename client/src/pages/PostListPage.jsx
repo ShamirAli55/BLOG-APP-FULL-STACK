@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const PostListPage = () => {
-  return (
-    <div>PostListPage</div>
-  )
-}
-
-export default PostListPage
-=======
 import { useState } from "react";
 import PostList from "../components/PostsList";
 import SideMenu from "../components/SideMenuBar";
@@ -38,4 +27,3 @@ const PostListPage = () => {
 };
 
 export default PostListPage;
->>>>>>> 0a83e56a4e8a9e6175360304ca9b08dd30fae8e4
