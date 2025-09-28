@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "dev":"nodemon src/server.js"
+    "dev": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "Shamir Ali",
   "license": "ISC",
-  "packageManager": "pnpm@10.17.0"
+  "packageManager": "pnpm@10.17.0",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2"
+  }
 }
